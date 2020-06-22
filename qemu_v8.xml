@@ -27,5 +27,7 @@
         <project path="build"                name="vascoguita/optee_trx_build.git">
                 <linkfile src="qemu_v8.mk" dest="build/Makefile" />
         </project>
-        <project path="optee_gmp"                name="vascoguita/optee_gmp.git"/>
+        <project path="optee_gmp"            name="vascoguita/optee_gmp.git"/>
+        <project path="optee_pbc"            name="vascoguita/optee_pbc.git"/>
+        <project path="optee_ibme"           name="vascoguita/IB-ME.git" revision="optee"/>
 </manifest>
