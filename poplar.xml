@@ -7,7 +7,7 @@
         <default remote="github" revision="master" />
 
         <!-- OP-TEE gits -->
-        <project path="build"                name="OP-TEE/build.git" >
+        <project path="build"                name="vascoguita/optee_trx_build.git" >
                 <linkfile src="poplar.mk" dest="build/Makefile" />
         </project>
         <project path="optee_client"         name="vascoguita/optee_client.git" />
