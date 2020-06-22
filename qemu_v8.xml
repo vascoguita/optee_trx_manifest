@@ -21,7 +21,7 @@
         <project path="qemu"                 name="qemu/qemu.git"                         revision="refs/tags/v5.0.0" clone-depth="1" />
         <project path="trusted-firmware-a"   name="TF-A/trusted-firmware-a.git"           revision="refs/tags/v2.3" clone-depth="1" remote="tfo" />
 
-        <!-- OP-TEE gits -->
+        <!-- TRX gits -->
         <project path="optee_client"         name="vascoguita/optee_client.git" />
         <project path="optee_os"             name="vascoguita/optee_os.git" />
         <project path="build"                name="vascoguita/optee_trx_build.git">
