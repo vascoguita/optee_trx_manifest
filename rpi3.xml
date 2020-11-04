@@ -6,13 +6,7 @@
         <default remote="github" revision="master" />
 
         <!-- OP-TEE gits -->
-        <project path="optee_client"         name="vascoguita/optee_client.git" />
-        <project path="optee_os"             name="vascoguita/optee_os.git" />
         <project path="optee_test"           name="OP-TEE/optee_test.git" />
-        <project path="build"                name="vascoguita/optee_trx_build.git">
-                <linkfile src="rpi3.mk" dest="build/Makefile" />
-                <linkfile src="rpi3/debugger/pi3.cfg" dest="build/pi3.cfg" />
-        </project>
 
         <!-- linaro-swg gits -->
         <project path="linux"                name="linaro-swg/linux.git"                  revision="rpi3-optee-4.14" clone-depth="1" />
@@ -24,4 +18,19 @@
         <project path="firmware"             name="raspberrypi/firmware.git"              revision="refs/tags/1.20190401" clone-depth="1" />
         <project path="trusted-firmware-a"   name="TF-A/trusted-firmware-a.git"           revision="refs/tags/v2.2" clone-depth="1" remote="tfo"/>
         <project path="u-boot"               name="u-boot/u-boot.git"                     revision="aac0c29d4b8418c5c78b552070ffeda022b16949" />
+
+        <!-- TRX gits -->
+        <project path="optee_client"         name="vascoguita/optee_client.git" />
+        <project path="optee_os"             name="vascoguita/optee_os.git" />
+        <project path="build"                name="vascoguita/optee_trx_build.git">
+                <linkfile src="rpi3.mk" dest="build/Makefile" />
+                <linkfile src="rpi3/debugger/pi3.cfg" dest="build/pi3.cfg" />
+        </project>
+        <project path="optee_gmp"            name="vascoguita/optee_gmp.git"/>
+        <project path="optee_pbc"            name="vascoguita/optee_pbc.git"/>
+        <project path="optee_ibme"           name="vascoguita/IB-ME.git" revision="optee"/>
+        <project path="ibme"                  name="vascoguita/IB-ME.git"/>
+        <project path="optee_tui"            name="vascoguita/optee_tui.git"/>
+        <project path="trx"                  name="vascoguita/trx.git"/>
+
 </manifest>
