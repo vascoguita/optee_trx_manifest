@@ -6,7 +6,7 @@
         <default remote="github" revision="master" />
 
         <!-- OP-TEE gits -->
-        <project path="optee_test"           name="OP-TEE/optee_test.git" />
+        <project path="optee_test"           name="OP-TEE/optee_test.git"                 revision="391168ec03980e1cc8fb6d3e3c4b424819cd90cf" />
 
         <!-- linaro-swg gits -->
         <project path="linux"                name="linaro-swg/linux.git"                  revision="rpi3-optee-4.14" clone-depth="1" />
