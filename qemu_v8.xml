@@ -30,7 +30,6 @@
         <project path="optee_gmp"            name="vascoguita/optee_gmp.git"/>
         <project path="optee_pbc"            name="vascoguita/optee_pbc.git"/>
 	<project path="optee_ibme"           name="vascoguita/IB-ME.git" revision="optee"/>
-        <project path="ibme"                  name="vascoguita/IB-ME.git"/>
 	<project path="optee_tui"            name="vascoguita/optee_tui.git"/>
         <project path="trx"                  name="vascoguita/trx.git"/>
 
