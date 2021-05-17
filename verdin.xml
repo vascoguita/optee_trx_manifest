@@ -8,7 +8,7 @@
         <project path="build"                name="vascoguita/optee_trx_build.git" >
                 <linkfile src="verdin.mk" dest="build/Makefile" />
         </project>
-        <project path="optee_client"         name="vascoguita/optee_client.git" />
+        <project path="optee_client"         name="OP-TEE/optee_client.git"         revision="c77b4aadcf1d38468f06fa31d1d9d8d367c54635" />
         <project path="optee_os"             name="vascoguita/optee_os.git" />
         <project path="optee_test"           name="OP-TEE/optee_test.git" />
 
