@@ -7,6 +7,7 @@
 
         <!-- OP-TEE gits -->
         <project path="optee_test"           name="OP-TEE/optee_test.git"                 revision="391168ec03980e1cc8fb6d3e3c4b424819cd90cf" />
+        <project path="optee_client"         name="OP-TEE/optee_client.git"               revision="c77b4aadcf1d38468f06fa31d1d9d8d367c54635" />
 
         <!-- linaro-swg gits -->
         <project path="linux"                name="linaro-swg/linux.git"                  revision="rpi3-optee-4.14" clone-depth="1" />
@@ -20,7 +21,6 @@
         <project path="u-boot"               name="u-boot/u-boot.git"                     revision="aac0c29d4b8418c5c78b552070ffeda022b16949" />
 
         <!-- TRX gits -->
-        <project path="optee_client"         name="vascoguita/optee_client.git" />
         <project path="optee_os"             name="vascoguita/optee_os.git" />
         <project path="build"                name="vascoguita/optee_trx_build.git">
                 <linkfile src="rpi3.mk" dest="build/Makefile" />
