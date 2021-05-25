@@ -31,5 +31,6 @@
         <project path="optee_ibme"           name="vascoguita/IB-ME.git" revision="optee"/>
         <project path="optee_tui"            name="vascoguita/optee_tui.git"/>
         <project path="trx"                  name="vascoguita/trx.git"/>
+        <project path="trx_benchmark"        name="vascoguita/trx_benchmark.git"/>
 
 </manifest>
