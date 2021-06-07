@@ -12,7 +12,7 @@
         <!-- linaro-swg gits -->
         <project path="linux"                name="linaro-swg/linux.git"                  revision="rpi3-optee-4.14" clone-depth="1" />
         <project path="optee_benchmark"      name="linaro-swg/optee_benchmark.git"/>
-        <project path="optee_examples"       name="linaro-swg/optee_examples.git" />
+        <project path="optee_examples"       name="linaro-swg/optee_examples.git"         revision="a66caa47b4d952d8e00093ad5548b3209670443d" />
 
         <!-- Misc gits -->
         <project path="buildroot"            name="buildroot/buildroot.git"               revision="95942f5fcd35d783a49adce621ccf33480f1c88c" />
